@@ -5,7 +5,16 @@
         "name": "GardeningServiceApplication",
         "request": "launch",
         "mainClass": "com.wsu.gardeningservice.GardeningServiceApplication",
-        "projectName": "microservices-assignment-7-pattonsgirl"
+        "projectName": "microservices-assignment-7-pattonsgirl",
+        "args": "",
+        "env": {
+          "SERVER_PORT": "8080",
+          "SERVER_CONTEXT_PATH": "/gardening-service"
+          //"DATABASE_URL": "jdbc:mariadb://host.docker.internal:3306/gardening",
+          //"DATABASE_USERNAME": "user",
+          //"DATABASE_PASSWORD": "password",
+          //"DATABASE_DRIVER": "org.mariadb.jdbc.Driver"
+        }
       },
       {
         "type": "java",

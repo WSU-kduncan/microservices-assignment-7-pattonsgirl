@@ -6,9 +6,9 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 
 //THIS IS THE EXCLUDE TAG TO REMOVE
-//@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
 // LINE TO REPLACE WITH
-@SpringBootApplication
+//@SpringBootApplication
 public class GardeningServiceApplication {
 
 	/**
