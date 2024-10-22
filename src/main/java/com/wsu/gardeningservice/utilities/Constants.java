@@ -1,4 +1,4 @@
-package com.wsu.workorderproservice.utilities;
+package com.wsu.gardeningservice.utilities;
 
 import lombok.experimental.UtilityClass;
 

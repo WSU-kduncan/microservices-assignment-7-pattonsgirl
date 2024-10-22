@@ -1,4 +1,4 @@
-package com.wsu.workorderproservice.config;
+package com.wsu.gardeningservice.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
